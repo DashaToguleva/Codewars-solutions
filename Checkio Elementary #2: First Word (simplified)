@@ -1,0 +1,5 @@
+codewars.com/kata/6011f1d94c1824002bd3803d/
+
+def first_word(text):
+    a = text.split()
+    return a[0]
