@@ -1,0 +1,10 @@
+codewars.com/kata/5a905c2157c562994900009d/
+
+def product_array(num):
+    m = []
+    p = 1
+    for el in num:
+        p = p * el
+    for el in num:
+        m.append(p / el)
+    return m   
