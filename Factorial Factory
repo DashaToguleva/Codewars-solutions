@@ -1,0 +1,7 @@
+codewars.com/kata/528e95af53dcdb40b5000171/
+
+import math
+def factorial(n):
+    if n < 0:
+        return None
+    return math.factorial(n)
