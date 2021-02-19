@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/602db3215c22df000e8544f0/
+
+def two_are_positive(a, b, c):
+    abc = len([el for el in [a,b,c] if el > 0])
+    return abc == 2
