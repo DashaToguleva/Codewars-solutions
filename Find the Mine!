@@ -1,0 +1,9 @@
+codewars.com/kata/528d9adf0e03778b9e00067e/
+
+def mineLocation(field):
+    pos = []
+    for i in range(len(field)):
+        if field[i].count(1) == 1:
+            pos.append(i)
+            pos.append(field[i].index(1))
+    return pos        
