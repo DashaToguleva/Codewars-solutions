@@ -1,0 +1,7 @@
+codewars.com/kata/5a2b7edcb6486a856e00005b/
+
+def check_vowel(string, position):
+    if position >= len(string) or position < 0:
+        return False
+    vowel = "aeiouAEIUO"
+    return string[position] in vowel
