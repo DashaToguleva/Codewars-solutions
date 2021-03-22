@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/553e8b195b853c6db4000048/
+
+def has_unique_chars(string):
+    char = []
+    for el in string:
+        if el in char:
+            return False
+        else:
+            char.append(el)
+    return True         
