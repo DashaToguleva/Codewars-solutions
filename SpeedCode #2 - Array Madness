@@ -1,0 +1,6 @@
+codewars.com/kata/56ff6a70e1a63ccdfa0001b1/
+
+def array_madness(a,b):
+    a = [el**2 for el in a]
+    b = [el**3 for el in b]
+    return sum(a) > sum(b)
