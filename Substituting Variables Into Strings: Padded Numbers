@@ -1,0 +1,8 @@
+codewars.com/kata/51f2b4448cadf20ed0000386/
+
+def remove_url_anchor(url):
+    if "#" in url:
+        index = url.index("#")
+        return url[0:index]
+    else:
+        return url
