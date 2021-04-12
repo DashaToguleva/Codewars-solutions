@@ -1,0 +1,8 @@
+codewars.com/kata/586560a639c5ab3a260000f3/
+
+def rotate(s):
+    a = []
+    for i in range(len(s)):
+        s= s[1:] + s[0]
+        a.append(s)
+    return a    
