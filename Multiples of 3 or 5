@@ -1,0 +1,8 @@
+codewars.com/kata/514b92a657cdc65150000006/
+
+def solution(num):
+    s = 0
+    for i in range(1,num):
+        if i % 3 == 0 or i % 5 == 0:
+            s += i
+    return s    
